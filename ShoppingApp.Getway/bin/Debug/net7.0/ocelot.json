@@ -1,0 +1,191 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7196"
+  },
+  "Routes": [
+    
+    {
+      "UpstreamPathTemplate": "/api/customers/list",
+      "DownstreamPathTemplate": "/api/customers/customers-list",
+      "UpstreamHttpMethod": ["POST"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7207
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/customers/create",
+      "DownstreamPathTemplate": "/api/customers/create-customer",
+      "UpstreamHttpMethod": ["POST"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7207
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/customers/{id}",
+      "DownstreamPathTemplate": "/api/customers/get-customer/{id}",
+      "UpstreamHttpMethod": ["GET"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7207
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/customers/modify/{id}",
+      "DownstreamPathTemplate": "/api/customers/get-customer-to-modify/{id}",
+      "UpstreamHttpMethod": ["GET"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7207
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/customers/update",
+      "DownstreamPathTemplate": "/api/customers/update-customer",
+      "UpstreamHttpMethod": ["PUT"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7207
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/customers/update/activation/{id}",
+      "DownstreamPathTemplate": "/api/customers/update-customer-activation/{id}",
+      "UpstreamHttpMethod": ["PUT"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7207
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/customers/{id}",
+      "DownstreamPathTemplate": "/api/customers/delete-customer/{id}",
+      "UpstreamHttpMethod": ["DELETE"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7207
+        }
+      ]
+    },
+
+
+    {
+      "UpstreamPathTemplate": "/api/login",
+      "DownstreamPathTemplate": "/api/auth/login",
+      "UpstreamHttpMethod": ["POST"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7161
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/users/list",
+      "DownstreamPathTemplate": "/api/users/users-list",
+      "UpstreamHttpMethod": ["POST"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7161
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/users/create",
+      "DownstreamPathTemplate": "/api/users/create-user",
+      "UpstreamHttpMethod": ["POST"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7161
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/users/{id}",
+      "DownstreamPathTemplate": "/api/users/get-user/{id}",
+      "UpstreamHttpMethod": ["GET"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7161
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/users/modify/{id}",
+      "DownstreamPathTemplate": "/api/users/get-user-to-modify/{id}",
+      "UpstreamHttpMethod": ["GET"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7161
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/users/update",
+      "DownstreamPathTemplate": "/api/users/update-user",
+      "UpstreamHttpMethod": ["PUT"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7161
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/users/update/activation/{id}",
+      "DownstreamPathTemplate": "/api/users/update-user-activation/{id}",
+      "UpstreamHttpMethod": ["PUT"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7161
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/users/{id}",
+      "DownstreamPathTemplate": "/api/users/delete-user/{id}",
+      "UpstreamHttpMethod": ["DELETE"],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7161
+        }
+      ]
+    }
+    
+  ]
+}

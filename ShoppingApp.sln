@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.Getway", "ShoppingApp.Getway\ShoppingApp.Getway.csproj", "{437B2977-E224-4AE7-B641-08FAF7F47E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.Core", "ShoppingApp.Core\ShoppingApp.Core.csproj", "{2E27E201-4DBF-4C0B-A5AB-7EA4DF6BACBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{664A33BD-5722-4941-AC60-501864E02756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.Microservices.Customers", "ShoppingApp.Microservices.Customers\ShoppingApp.Microservices.Customers.csproj", "{47B6D809-C2E5-4658-83DB-22CC3079144A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.Microservices.Users", "ShoppingApp.Microservices.Users\ShoppingApp.Microservices.Users.csproj", "{506360E4-C98C-4887-A337-E7A48744CEDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Template", "Microservices.Template\Microservices.Template.csproj", "{E5F96737-52B2-43F1-9FB8-AD1CA3C1E029}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{437B2977-E224-4AE7-B641-08FAF7F47E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437B2977-E224-4AE7-B641-08FAF7F47E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437B2977-E224-4AE7-B641-08FAF7F47E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437B2977-E224-4AE7-B641-08FAF7F47E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E27E201-4DBF-4C0B-A5AB-7EA4DF6BACBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E27E201-4DBF-4C0B-A5AB-7EA4DF6BACBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E27E201-4DBF-4C0B-A5AB-7EA4DF6BACBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E27E201-4DBF-4C0B-A5AB-7EA4DF6BACBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B6D809-C2E5-4658-83DB-22CC3079144A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B6D809-C2E5-4658-83DB-22CC3079144A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B6D809-C2E5-4658-83DB-22CC3079144A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B6D809-C2E5-4658-83DB-22CC3079144A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506360E4-C98C-4887-A337-E7A48744CEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506360E4-C98C-4887-A337-E7A48744CEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506360E4-C98C-4887-A337-E7A48744CEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506360E4-C98C-4887-A337-E7A48744CEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F96737-52B2-43F1-9FB8-AD1CA3C1E029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F96737-52B2-43F1-9FB8-AD1CA3C1E029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F96737-52B2-43F1-9FB8-AD1CA3C1E029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F96737-52B2-43F1-9FB8-AD1CA3C1E029}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47B6D809-C2E5-4658-83DB-22CC3079144A} = {664A33BD-5722-4941-AC60-501864E02756}
+		{506360E4-C98C-4887-A337-E7A48744CEDB} = {664A33BD-5722-4941-AC60-501864E02756}
+		{E5F96737-52B2-43F1-9FB8-AD1CA3C1E029} = {664A33BD-5722-4941-AC60-501864E02756}
+	EndGlobalSection
+EndGlobal

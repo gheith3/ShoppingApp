@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KWEUafbR1Fy9Y/ObVTUxk03F3PFMcPpijMZK7kdlOIY=",
+  "Source": "ShoppingApp.Microservices.Customers",
+  "BasePath": "_content/ShoppingApp.Microservices.Customers",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
